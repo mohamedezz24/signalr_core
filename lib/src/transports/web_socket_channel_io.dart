@@ -38,6 +38,8 @@ Future<WebSocketChannel> connect(
       'Sec-WebSocket-Key': nonce,
       'Cache-Control': 'no-cache',
       'Sec-WebSocket-Version': '13',
+      'clientId': 'd7a73f5a0a874125bd322d7a60b2e2f8',
+      'clientToken':'afdee411-4130-4293-a13f-964c3edef43af4774636-12d3-4122-baec-1998a135012b'
     });
 
   var response = await client.send(request);
